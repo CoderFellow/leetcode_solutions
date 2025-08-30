@@ -40,12 +40,13 @@ class Solution(object):
 		new_fig = l1_reversed_figure + l2_reversed_figure
 		
 		# putting the sum of l1 and l2 in a list
-		new_list = [int(digit) for digit in str(new_fig)]
+		l3 = [int(digit) for digit in str(new_fig)]
 		
 		# reversing the list of the sum of l1 and l2
-		new_list.reverse()
+		l3.reverse()
 		
-		return new_list
+		# returning new_list
+		return l3
 
 
 if __name__ == "__main__":        
